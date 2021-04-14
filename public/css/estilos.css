@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-width: 700%;
+    margin: auto;
+    
+}
+
+/* HOME */
+
+.presentacion{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6bd60;
+    border: solid black 1px;
+}
+.texto-presentacion{
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.pointer{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 100px;
+}
+.cover-photo{
+    position: absolute;
+    align-items: right;
+    top: 1px;
+    right:0px;
+    bottom: 0px;
+    margin-right: 0%;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 50%;
+}
+.location{
+    position: relative;
+    display: flex;
+    top: -50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+}
+
+/* FONTS */
+
+h1{ 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 750%;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: transparent; 
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    width: 700;
+    font-size: 60px;
+    -webkit-text-stroke: 1px #FE5F55;
+    color: transparent; 
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 1px #FE5F55;
+    color: transparent; 
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    font-size: 15px;
+    color: #707070;
+    min-width: 70px;
+    max-width: 50%;
+}
+
+/* NAVBAR */
+
+.navbar{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #707070;
+    margin: 15px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    border-top: black 1px solid;
+    border-bottom:  black 1px solid;
+}
+.navbar li{
+    margin: 0 50px 0 ;
+    padding: 5px;
+    align-items: center;
+}
+.navbar li:hover{
+    color: #faae33;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a{
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ABOUT */
+.about{
+    margin-top: 200px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-top: #000 solid 1px;
+}
+
+.box-one{ 
+    display: block;
+    position: relative;
+    width: 35%;
+    background-color:#ffff;
+    border: #707070 solid 1px;
+    border: black solid 1 px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 1%;
+}
+.box-two{ 
+    display: block;
+    position: relative;
+    width: 35%;
+    background-color:#ffff;
+    border: #707070 solid 1px;
+    border: black solid 1 px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: auto;
+}
+.card{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    border-top: #000 solid 1px;
+    height: 15%;
+}
+.card img{
+    width: 20%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+.text-icon{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 70%;
+ }
+
+.text-about p{
+    position: relative;
+    margin: 40px;
+    min-width: 70px;
+    max-width: 80%;
+    text-align: justify;
+    
+}
+.about h3 :not(:first-child){
+    border-bottom: #000 solid 1px;
+}
+.forma-geometrica2{
+    position: absolute;
+   
+    margin: 0;
+    background-size: auto auto;
+    background-size: 10px;
+}
+.attributes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PROJECTS */
+.forma-geometrica3{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -500;
+    width: 100%;
+
+    
+}
+.projects{
+    display: flex;
+    justify-content: center; 
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.title_project_div{
+    width: 200%;
+}
+.title_project{
+    text-align:center;
+    width: 100%;
+}
+.img_projects{
+    width: 90%;
+    margin-left: 5%;
+}
+.forma1{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;  
+    position: relative;
+    top: 700px;
+    background-size: auto auto;
+    background-size: 10px;
+
+}
+
+
+
+
+
+
+
+

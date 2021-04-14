@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="89" viewBox="0 0 90 89">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.162" y1="0.132" x2="0.931" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2680eb"/>
+      <stop offset="1" stop-color="#134076"/>
+    </linearGradient>
+  </defs>
+  <g id="behance" transform="translate(-1689.633 -120)">
+    <path id="Trazado_38" data-name="Trazado 38" d="M10.175-1.444c6.5-6.8,19.7-5.277,30.721,1.444S71.581,0,71.581,0A11.885,11.885,0,0,1,83.347,12V42A11.885,11.885,0,0,1,71.581,54H11.767A11.885,11.885,0,0,1,0,42V12C0,5.373,3.676,5.358,10.175-1.444Z" transform="translate(1693.286 151)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_61" data-name="Grupo 61" transform="translate(289.05 -338.18)">
+      <g id="Rectángulo_79" data-name="Rectángulo 79" transform="translate(1400.583 458.18)" fill="none" stroke="#000" stroke-width="5">
+        <rect width="90" height="89" rx="13" stroke="none"/>
+        <rect x="2.5" y="2.5" width="85" height="84" rx="10.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Trazado_83" data-name="Trazado 83" d="M11.208,17.806a57.686,57.686,0,0,1,11.766-1.123c6.439,0,10.583,1.2,13.691,3.931,2.591,2.086,4.145,5.3,4.145,9.549a12.741,12.741,0,0,1-8.437,11.875v.16A13.659,13.659,0,0,1,42.66,55.759a15.183,15.183,0,0,1-4.218,10.831c-3.479,3.45-9.1,5.055-17.244,5.055A69.7,69.7,0,0,1,11.208,71Zm6.438,22.145h5.846C30.3,39.951,34.3,36.1,34.3,30.885c0-6.339-4.44-8.826-10.953-8.826a25.554,25.554,0,0,0-5.7.48Zm0,25.917a31.772,31.772,0,0,0,5.4.321c6.66,0,12.8-2.648,12.8-10.512,0-7.381-5.846-10.43-12.877-10.43H17.646Z" transform="translate(1691.012 121.605)"/>
+    <path id="Trazado_84" data-name="Trazado 84" d="M55.015,51.884c.148,9.549,5.772,13.48,12.285,13.48a21.98,21.98,0,0,0,9.917-2.006l1.11,5.056a27.082,27.082,0,0,1-11.915,2.407c-11.027,0-17.613-7.864-17.613-19.579S55.163,30.3,65.6,30.3c11.693,0,14.8,11.153,14.8,18.294a28.831,28.831,0,0,1-.222,3.29Zm19.094-5.055c.073-4.493-1.7-11.474-9.029-11.474-6.587,0-9.473,6.58-9.991,11.474Z" transform="translate(1690.012 122.751)"/>
+    <rect id="Rectángulo_250" data-name="Rectángulo 250" width="27.839" height="3.972" transform="translate(1742.257 145.65)"/>
+  </g>
+</svg>

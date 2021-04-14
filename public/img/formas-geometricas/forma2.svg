@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="808" height="821" viewBox="0 0 808 821">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Mesa_de_trabajo_3);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        filter: url(#Rectángulo_251);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7bac"/>
+      <stop offset="1" stop-color="#b38385" stop-opacity="0.529"/>
+    </linearGradient>
+    <filter id="Rectángulo_251" x="-80.669" y="-77.94" width="970.338" height="980.549" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Mesa_de_trabajo_3">
+      <rect width="808" height="821"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_3" data-name="Mesa de trabajo – 3" class="cls-1">
+    <rect class="cls-3" width="808" height="821"/>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Rectángulo_251-2" data-name="Rectángulo 251" class="cls-2" width="721.308" height="637.813" rx="183.614" transform="translate(416.64 -71.94) rotate(49.96)"/>
+    </g>
+  </g>
+</svg>
