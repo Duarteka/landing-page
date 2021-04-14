@@ -35,28 +35,15 @@ class About extends Component{
                 </div>
             </div>
         </div>
-        {/*  <div className="atributtes">
+        <h3>Soft Skills</h3>
+        <div className="attributtes_text">
             <div className="soft_skills">
-                <h3>Soft Skills</h3>
-                <p>Intuition in design</p>
-                <p>Minimalist</p>
-                <p>Organized</p>
-                <p>Meticulous</p>
-                <p>Solve Problems</p>
-                <p>Collaboratos</p>
-                <p>Maximum effort</p>
-                <p>Speed efficiency</p><br/>
+               <p>/01/Intuition in design/ 02/Minimalist/ 03/Organized/ 04/Meticulous/ 05/Solve Problems/ 06/Collaboratos/ 07/Maximum effort/ 08/ efficiency/ 09/Teanwork is overrated/ 10/Perfectionism/</p>
             </div>
-            <div className="negative">
-                <h3>Negative Attributes</h3>
-                <p>Teanwork is overrated</p>
-                <p>Perfectionism bordering on tic</p>
-                <p>Nervousness</p>
-                <p>Intolerant of uselessness</p>
-                <p>Too sincere</p>
-            </div>
+            <img className="circle1" src="img/iconos_misc/circle.svg" alt=""/>
+            <img className="circle2" src="img/iconos_misc/circle.svg" alt=""/>
         </div> 
-        */}
+        
         </>
         );
     }
