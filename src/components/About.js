@@ -5,8 +5,7 @@ class About extends Component{
     constructor(){
         super();
         this.state = {
-            hobbies : hobbies,
-            
+            hobbies : hobbies
         };
     }
     render(){
@@ -43,7 +42,6 @@ class About extends Component{
             <img className="circle1" src="img/iconos_misc/circle.svg" alt=""/>
             <img className="circle2" src="img/iconos_misc/circle.svg" alt=""/>
         </div> 
-        
         </>
         );
     }
@@ -55,5 +53,5 @@ const Icono = (props) =>{
             <p className="text-icon">{props.texto_hobbie}</p>
         </div>
     );
-}
+};
 export default About;
