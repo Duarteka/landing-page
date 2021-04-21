@@ -4,6 +4,7 @@ class Footer extends Component{
     render(){
         return(
             <>
+            <div className="container-footer">
             <footer className="footer"> 
                 
                 <div className="part1_backtotop" >
@@ -34,6 +35,7 @@ class Footer extends Component{
                     </div>
                 </div>
             </footer>
+            </div>
             </>
         );
     }

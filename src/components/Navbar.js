@@ -1,61 +1,24 @@
 import React, {Component} from "react";
+import styled from "styled-components";
+import {Link} from "react-scroll";
    
 class Navbar extends Component{
-    constructor(){
-        super();
-        this.state = {
-        };
-    }
+    state = {};
+    
     render(){
         return(
-        <>
-        <div className="icons_burgerbutton">
-            <div className="iconos-social_media_responsive">
-                <a href="https://www.behance.net/karenduarte21"><img src="img/iconos_rrss/behance.svg" alt=""/></a> 
-                <a href="https://github.com/Duarteka"><img src="img/iconos_rrss/github.svg" alt=""/></a> 
-                <a href="https://www.instagram.com/kap_temia/"><img src="img/iconos_rrss/instagram.svg" alt=""/></a> 
-                <a href="https://www.linkedin.com/in/karen-duarte-a141291a6/"><img src="img/iconos_rrss/linkedin.svg" alt=""/></a> 
-            </div>
-            <div className="burgerbutton">
-                <a href="#" onClick={
-                    event => {
-                        event.preventDefault();
-                        }
-                }><img src="./img/iconos_misc/hamb-menu.svg" alt=""/></a>
-            </div>    
-        </div> 
-        <div className="navbar-responsive">
-            <a href="#" className="close" onClick={
-                event => {
-                    event.preventDefault();
-
-                }
-            }>x</a>
-                <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="#"></a>Projects</li>
-                    <li><a href="#"></a>Contact</li>
-                </ul>
-        </div>
-        
-        
+       <div className="container-nav">
         <div className="navbar">
                 <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="#"></a>Projects</li>
-                    <li><a href="#"></a>Contact</li>
+                    <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={800}><li>Home</li></Link>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={800}><li>About</li></Link>
+                    <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={800}><li>Projects</li></Link>
+                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={800}><li>Contact</li></Link> 
                 </ul>
+            </div>
         </div>
-
-       
-        </>
         );
     }
 }
-
-
-
 
 export default Navbar;

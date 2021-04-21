@@ -5,11 +5,14 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Form from "./components/Form";
 import Footer from "./components/Footer";
+import NavbarResponsive from "./components/Navbar_respons";
+
 
 class App extends Component{
     render(){
         return(
         <> 
+        <NavbarResponsive/>
         <Navbar/>
         <Header/>
         <About/>
