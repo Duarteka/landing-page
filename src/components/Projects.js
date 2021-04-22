@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {projects} from "../configs/config_projects";
+
 class Projects  extends Component{
     constructor(){
         super();
@@ -11,7 +12,7 @@ class Projects  extends Component{
     render(){
         return(
         <>
-        <h3>Projects</h3> 
+        <h2>Projects</h2> 
         <div className="container-projects">
             <div className="projects" id="projects">
                 {this.state.projects.map((item, index) => <Project key={index} title={item.title} img={item.ruta} link={item.link}/>)}

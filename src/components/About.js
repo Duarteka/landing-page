@@ -25,9 +25,11 @@ class About extends Component{
                             <br/>In 2017 I traveled to Spain, the country that I fell in love with and decided to stay and live in Madrid, with my administrative studies I got a job in a small family business dedicated to tourism, where I had a position with many responsibilities but that I executed with pleasure since the atmosphere was nice and I improved different languages ​​every day.<br/>
                             <br/>In 2020, when the pandemic hit, my company could not withstand the economic impact and they fired me, so I decided to take this time to go back to something I always wanted: to create web pages and digital content; So I did some UX / UI and javascript courses on different pages such as Interaction Foundation Design, Udemy and Domestika, finally I decided it was time to go back to school so I entered the CEI Bootcamp, where I learned the best with good teachers practices to develop web and train as a professional, currently here I am creating my portfolio and really wanting to start this exciting career!</p><br/>
                         </div>
-                        <p>Thank you for reading!</p>
-                        <p>you can see my full C.V. here: </p>
-                        <a href="#">CV Karen Duarte</a>
+                        <div className="about-footer">
+                            <p>Thank you for reading!</p>
+                            <p>you can see my full C.V. here: </p>
+                            <a href="https://drive.google.com/file/d/1W61sJay7ok1izyRp1ESGSLGsS_iU-nJu/view?usp=sharing"><h3>CV Karen Duarte</h3></a>
+                        </div>
                     </div>
                     <div className="box-two">
                         <h3>Hobbies</h3>

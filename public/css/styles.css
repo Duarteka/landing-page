@@ -40,6 +40,9 @@ h3{
     text-align: center;
     padding-top: 30px;
 }
+h3:hover{
+    border-bottom: solid #707070 1px;
+}
 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -109,6 +112,7 @@ p{
     top: 10px;
 }
 .navbar{
+    position: relative;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     font-size: 25px;
@@ -207,6 +211,24 @@ p{
 .about h3 :not(:first-child){
     border-bottom: #707070 solid 1px;
 }
+.about-footer{
+    display: block;
+    margin-left: 25%;
+    
+}
+.about-footer p{
+    text-align: inherit;
+    font-size: 1em;
+    padding: 7px;
+}
+.about-footer h3{
+    font-size: 2em;
+    margin-right: 50%;
+}
+.about-footer p:first-child{
+    color: #FE5F55;
+    font-size: 1em;
+}
 .forma-geometrica2{
     position: absolute;
     margin: 0;
@@ -220,7 +242,6 @@ p{
     align-items: center;
     justify-content: center;
 }
-
 .soft_skills p{
     text-transform: uppercase;
     text-align: center;
@@ -250,6 +271,7 @@ p{
 }
 
 /* PROJECTS */
+
 .container-projects{
     position: relative;
 }
@@ -304,7 +326,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: #707070;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -324,7 +346,8 @@ a{
     align-items: center;
     max-width: auto;
     height: auto;
-    margin:  auto;background-color: #ffffff;
+    margin:  auto;
+    background-color: #ffffff;
 
 }
 .contact-form .bottom{
@@ -341,6 +364,11 @@ a{
 .contact-form h2{
     margin-top: 0px;
 }
+.contacth2{
+    margin-top: 50px;
+    margin-top: 0px;
+    padding: 0 80px 80px 0;
+}
 .contact-form{
     max-width: 100%;
     max-height: auto;
@@ -348,15 +376,21 @@ a{
 label {
     display: block;
 }
-input[type="text"], input[type="email"], input[type="submit"], textarea {
+input[type="text"], input[type="email"], textarea {
     font-size: 1em;
     width: 100%;
     min-width: 300%;
     height: auto;
     border: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
 }
 textarea {
     height: 6em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+
 }
 input[type="text"], input[type="email"], textarea{
     border-bottom: #707070 1px solid;
@@ -368,11 +402,31 @@ input[type="text"], input[type="email"], textarea{
 input[type="submit"]{
     margin-left: -100%;
     padding: 5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 100%;
+    min-width: 300%;
+    height: auto;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 
 }
 input:hover[type="text"], input:hover[type="email"], textarea:hover{
     background:  #e7e7e7;
 }
+.invalid-feedback{
+    display: flex;
+    margin-top: 0;
+    color: #FE5F55;
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+.invalid-feedback img{
+    padding: 1%;
+}                   
 
 /* Footer */
 
@@ -393,6 +447,7 @@ input:hover[type="text"], input:hover[type="email"], textarea:hover{
     max-width: 100%;
     margin-right: auto;
     margin-left: 0;
+    cursor: pointer;
 
 }
 .part1_backtotop h3{
@@ -561,7 +616,7 @@ input:hover[type="text"], input:hover[type="email"], textarea:hover{
      .iconos-social_media_responsive a{
          padding: 1%;
     }
-   
+    
     /* ABOUT */
 
     .cards{

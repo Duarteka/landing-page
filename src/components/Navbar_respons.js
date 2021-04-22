@@ -35,12 +35,12 @@ class NavbarResponsive extends Component{
                 </div>
 
                 <div className="burgerbutton">
-                    <a href="#" onClick={this.showNav}><img src="./img/iconos_misc/hamb-menu.svg" alt=""/></a>
+                    <button value="" onClick={this.showNav}><img src="./img/iconos_misc/hamb-menu.svg" alt=""/></button>
                 </div>    
             </div> 
         :
             <div className="navbar-responsive">
-                <a href="#" className="close" onClick={this.hideNav}>x</a> 
+                <button value="x" className="close" onClick={this.hideNav}>X</button> 
                 <ul>
                     <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={800}><li>Home</li></Link>
                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={800}><li>About</li></Link>

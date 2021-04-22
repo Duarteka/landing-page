@@ -1,20 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="89" viewBox="0 0 90 89">
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.004" height="55.382" viewBox="0 0 56.004 55.382">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" y1="-0.161" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#2680eb"/>
       <stop offset="1" stop-color="#b8cae0"/>
     </linearGradient>
   </defs>
-  <g id="linkedin" transform="translate(-1471.633 -120)">
-    <path id="Trazado_38" data-name="Trazado 38" d="M10.175-1.444c6.5-6.8,19.7-5.277,30.721,1.444S71.581,0,71.581,0A11.885,11.885,0,0,1,83.347,12V42A11.885,11.885,0,0,1,71.581,54H11.767A11.885,11.885,0,0,1,0,42V12C0,5.373,3.676,5.358,10.175-1.444Z" transform="translate(1475.286 151)" fill="url(#linear-gradient)"/>
-    <g id="Grupo_61" data-name="Grupo 61" transform="translate(71.05 -338.18)">
-      <g id="Rectángulo_79" data-name="Rectángulo 79" transform="translate(1400.583 458.18)" fill="none" stroke="#000" stroke-width="5">
-        <rect width="90" height="89" rx="13" stroke="none"/>
-        <rect x="2.5" y="2.5" width="85" height="84" rx="10.5" fill="none"/>
-      </g>
+  <path id="Trazado_38" data-name="Trazado 38" d="M6.332-3.11c4.044-4.233,12.257-3.283,19.116.9s19.094,0,19.094,0a7.4,7.4,0,0,1,7.322,7.467V23.924a7.4,7.4,0,0,1-7.322,7.467H7.322A7.4,7.4,0,0,1,0,23.924V5.256C0,1.132,2.287,1.123,6.332-3.11Z" transform="translate(2.273 21.502)" fill="url(#linear-gradient)"/>
+  <g id="Grupo_61" data-name="Grupo 61">
+    <g id="Rectángulo_79" data-name="Rectángulo 79" transform="translate(0)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="56.004" height="55.382" rx="13" stroke="none"/>
+      <rect x="1.5" y="1.5" width="53.004" height="52.382" rx="11.5" fill="none"/>
     </g>
-    <rect id="Rectángulo_248" data-name="Rectángulo 248" width="6.09" height="30.449" transform="translate(1497.109 164.708)"/>
-    <rect id="Rectángulo_249" data-name="Rectángulo 249" width="6.09" height="6.09" transform="translate(1497.109 154.989)"/>
-    <path id="Trazado_81" data-name="Trazado 81" d="M61.015,67.8V64.036a8.27,8.27,0,1,1,16.54,0V79.073h6.015V64.036A14.291,14.291,0,0,0,61.015,52.383V49H55V79.073h6.015Z" transform="translate(1453.242 115.896)"/>
   </g>
+  <rect id="Rectángulo_248" data-name="Rectángulo 248" width="3.789" height="18.947" transform="translate(15.853 27.82)"/>
+  <rect id="Rectángulo_249" data-name="Rectángulo 249" width="3.789" height="3.789" transform="translate(15.853 21.773)"/>
+  <path id="Trazado_81" data-name="Trazado 81" d="M58.743,60.7V58.357a5.146,5.146,0,0,1,10.292,0v9.357h3.743V58.357a8.893,8.893,0,0,0-14.035-7.251V49H55V67.713h3.743Z" transform="translate(-32.22 -21.063)"/>
 </svg>
